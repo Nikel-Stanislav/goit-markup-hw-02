@@ -48,6 +48,10 @@ a {
   color: #404bbf;
 }
 
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
 }
@@ -60,6 +64,10 @@ a {
 }
 
 .header-address-link:hover {
+  color: #404bbf;
+}
+
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -80,12 +88,23 @@ a {
   color: #fff;
 }
 
-.main-batton {
+.main-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: #404bbf;
+}
+
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 /* ----------------------------------------------------- */
@@ -111,13 +130,22 @@ a {
 
 /* --------------------3 SECTION--------------------------------- */
 
+.main-section-picture {
+  background-color: #f4f4fd;
+}
+
 .main-picture-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.main-section-image {
+  background-color: #ffffff;
 }
 
 .main-section-subject {
@@ -144,10 +172,11 @@ a {
 .benefits-caption {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .benefits-subtitle {
@@ -170,13 +199,21 @@ a {
 
 /* -----------------------FOOTER------------------------------ */
 
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-accent {
   color: #f4f4fd;
 }
 
